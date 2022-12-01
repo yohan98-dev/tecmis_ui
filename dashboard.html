@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>T E C M I S | FoT University of Ruhuna</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .notice-table th,
+      .notice-table td {
+        padding: 8px;
+        text-align: left;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar open">
+      <div class="logo-details">
+        <img class="logo" src="assets/img/logo.png" alt="" />
+        <div class="logo_name">T E C M I S</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="dashboard.html" class="active">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+          <a href="notices.html">
+            <i class="bx bx-alarm"></i>
+            <span class="links_name">Notices</span>
+          </a>
+          <span class="tooltip">Notices</span>
+        </li>
+        <li>
+          <a href="attendance.html">
+            <i class="bx bxs-bookmark-heart"></i>
+            <span class="links_name">Attendance</span>
+          </a>
+          <span class="tooltip">Attendance</span>
+        </li>
+        <li>
+          <a href="medicals.html">
+            <i class="bx bx-folder"></i>
+            <span class="links_name">Medicals</span>
+          </a>
+          <span class="tooltip">Medicals</span>
+        </li>
+        <li>
+          <a href="courses.html">
+            <i class="bx bxl-discourse"></i>
+            <span class="links_name">Course Registration</span>
+          </a>
+          <span class="tooltip">Course Registration</span>
+        </li>
+        <li>
+          <a href="exams.html">
+            <i class="bx bx-log-in-circle"></i>
+            <span class="links_name">Exam Registration</span>
+          </a>
+          <span class="tooltip">Exam Registration</span>
+        </li>
+        <li>
+          <a href="results.html">
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <span class="links_name">Exam Results</span>
+          </a>
+          <span class="tooltip">Exam Results</span>
+        </li>
+        <li>
+          <a href="payments.html">
+            <i class="bx bxs-wallet"></i>
+            <span class="links_name">Payments</span>
+          </a>
+          <span class="tooltip">Payments</span>
+        </li>
+        <li>
+          <a href="meals.html">
+            <i class="bx bx-dish"></i>
+            <span class="links_name">Order Meal</span>
+          </a>
+          <span class="tooltip">Order Meal</span>
+        </li>
+        <li>
+          <a href="contact.html">
+            <i class="bx bx-mail-send"></i>
+            <span class="links_name">Send Inquiry</span>
+          </a>
+          <span class="tooltip">Send Inquiry</span>
+        </li>
+
+        <li class="profile">
+          <div class="profile-details">
+            <img src="assets/img/profile.jpg" alt="profileImg" />
+            <div class="name_job">
+              <div class="name">M. Gunarathne</div>
+            </div>
+          </div>
+          <a href="index.html"><i class="bx bx-log-out" id="log_out"></i></a>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="top-bar">
+        <h1 class="title">
+          Faculty of Technology | Management Information System [ T E C M I S ]
+        </h1>
+      </div>
+      <div class="dashboard-body" style="width: 90%; margin: auto">
+        <div class="col col-left">
+          <h2 class="sub-title">Overall GPA</h2>
+          <div class="gpa-board">
+            <div class="frame">
+              <div>
+                <div class="circle-big">
+                  <div class="text">
+                    3.75
+                    <div class="small">CGPA</div>
+                  </div>
+                  <svg>
+                    <circle class="bg" cx="57" cy="57" r="52"></circle>
+                    <circle class="progress" cx="57" cy="57" r="52"></circle>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="frame">
+              <div>
+                <div class="circle-big">
+                  <div class="text">
+                    3.60
+                    <div class="small">SGPA</div>
+                  </div>
+                  <svg>
+                    <circle class="bg" cx="57" cy="57" r="52"></circle>
+                    <circle class="progress" cx="57" cy="57" r="52"></circle>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4 style="text-align: center">
+            Good Work! Your are currrenlty on First Class Level
+          </h4>
+        </div>
+        <div class="col col-right">
+          <h2 class="sub-title">Mentor</h2>
+
+          <div class="mentor-details">
+            <table>
+              <tr>
+                <td>Name</td>
+                <td>: Mr. P.H.P.N. Laksiri</td>
+              </tr>
+              <tr>
+                <td>Designation</td>
+                <td>: Lecturer Probationary</td>
+              </tr>
+              <tr>
+                <td>Department</td>
+                <td>: ICT Department</td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>: nuwan@ictec.ruh.ac.lk</td>
+              </tr>
+            </table>
+            <div class="mentor-img">
+              <img src="assets/img/mentor.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-body" style="width: 90%; margin: auto; padding: 0">
+        <div class="col col-left">
+          <h2 class="sub-title">Overall Attendance</h2>
+          <div class="attendance-box">
+            <p class="course-title">Advance Programming in Java/C++</p>
+            <div class="att-bar-row">
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="80%"
+                  >
+                    80%
+                  </div>
+                </div>
+                <small>Theory</small>
+              </div>
+
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="85%"
+                  >
+                    85%
+                  </div>
+                </div>
+                <small>Practical</small>
+              </div>
+            </div>
+          </div>
+          <div class="attendance-box">
+            <p class="course-title">Mobile Computing Principles</p>
+            <div class="att-bar-row">
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="90%"
+                  >
+                    90%
+                  </div>
+                </div>
+                <small>Theory</small>
+              </div>
+
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="60%"
+                  >
+                    60%
+                  </div>
+                </div>
+                <small>Practical</small>
+              </div>
+            </div>
+          </div>
+          <div class="attendance-box">
+            <p class="course-title">IT Project Management</p>
+            <div class="att-bar-row">
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="20%"
+                  >
+                    20%
+                  </div>
+                </div>
+                <small>Theory</small>
+              </div>
+
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="70%"
+                  >
+                    70%
+                  </div>
+                </div>
+                <small>Practical</small>
+              </div>
+            </div>
+          </div>
+          <div class="attendance-box">
+            <p class="course-title">Rapid Agile Development</p>
+            <div class="att-bar-row">
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="50%"
+                  >
+                    50%
+                  </div>
+                </div>
+                <small>Theory</small>
+              </div>
+
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="50%"
+                  >
+                    50%
+                  </div>
+                </div>
+                <small>Practical</small>
+              </div>
+            </div>
+          </div>
+          <div class="attendance-box">
+            <p class="course-title">Human Computer Interaction</p>
+            <div class="att-bar-row">
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="90%"
+                  >
+                    90%
+                  </div>
+                </div>
+                <small>Theory</small>
+              </div>
+
+              <div class="overall-attendance">
+                <div class="w3-light-grey att-container">
+                  <div
+                    class="w3-container w3-green w3-center progress-bar progress-text"
+                    data="80%"
+                  >
+                    80%
+                  </div>
+                </div>
+                <small>Practical</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-right">
+          <h2 class="sub-title">Recent Notices</h2>
+          <table class="notice-table">
+            <tr class="heading">
+              <th>#</th>
+              <th>Date</th>
+              <th>Notice</th>
+              <th>view</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2022/12/22</td>
+              <td>EXAMINATION REGISTRATION-LEVEL 4 SEMESTER I</td>
+              <td><button class="view">View</button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>2022/12/22</td>
+              <td>BUSINESS ECONOMICS (TCS2112) - ASSIGNMENT 02</td>
+              <td><button class="view">View</button></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>2022/12/22</td>
+              <td>EXAM MEDICAL CERTIFICATES APPROVAL STATUS</td>
+              <td><button class="view">View</button></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>2022/12/22</td>
+              <td>ENGLISH V CONTINUOUS ASSESSMENT 04</td>
+              <td><button class="view">View</button></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>2022/12/22</td>
+              <td>NOTICE FOR ICT LEVEL 4 STUDENTS</td>
+              <td><button class="view">View</button></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>2022/12/22</td>
+              <td>ENGLISH III - CONTINUOUS ASSESSMENT FOR LEVEL 2 STUDENTS</td>
+              <td><button class="view">View</button></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>2022/12/22</td>
+              <td>NOTICE FOR ALL THE STUDENTS</td>
+              <td><button class="view">View</button></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>2022/12/22</td>
+              <td>NOTICE FOR BURSARY SCHOLARSHIP HOLDERS</td>
+              <td><button class="view">View</button></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>2022/12/22</td>
+              <td>STUDENT IDENTITY CARDS-2020 BATCH</td>
+              <td><button class="view">View</button></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>2022/12/22</td>
+              <td>
+                ENGLISH V ( ENG 3112/ENG3132/ENG3122 ) - CONTINUOUS ASSESSMENT
+                02
+              </td>
+              <td><button class="view">View</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+      $(".progress-bar").each(function () {
+        let x = $(this).attr("data");
+        $(this).animate({ width: x }, 3000);
+      });
+
+      // Menu resize
+      function mobileMenuResize() {
+        if ($(window).width() < 1000) {
+          $(".sidebar").removeClass("open");
+        } else {
+          $(".sidebar").addClass("open");
+        }
+      }
+
+      $(window).on("resize", function () {
+        mobileMenuResize();
+      });
+      $(document).ready(function () {
+        mobileMenuResize();
+      });
+    </script>
+  </body>
+</html>
