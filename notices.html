@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>T E C M I S | FoT University of Ruhuna</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="sidebar open">
+      <div class="logo-details">
+        <img class="logo" src="assets/img/logo.png" alt="" />
+        <div class="logo_name">T E C M I S</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="dashboard.html">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+          <a href="notices.html" class="active">
+            <i class="bx bx-alarm"></i>
+            <span class="links_name">Notices</span>
+          </a>
+          <span class="tooltip">Notices</span>
+        </li>
+        <li>
+          <a href="attendance.html">
+            <i class="bx bxs-bookmark-heart"></i>
+            <span class="links_name">Attendance</span>
+          </a>
+          <span class="tooltip">Attendance</span>
+        </li>
+        <li>
+          <a href="medicals.html">
+            <i class="bx bx-folder"></i>
+            <span class="links_name">Medicals</span>
+          </a>
+          <span class="tooltip">Medicals</span>
+        </li>
+        <li>
+          <a href="courses.html">
+            <i class="bx bxl-discourse"></i>
+            <span class="links_name">Course Registration</span>
+          </a>
+          <span class="tooltip">Course Registration</span>
+        </li>
+        <li>
+          <a href="exams.html">
+            <i class="bx bx-log-in-circle"></i>
+            <span class="links_name">Exam Registration</span>
+          </a>
+          <span class="tooltip">Exam Registration</span>
+        </li>
+        <li>
+          <a href="results.html">
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <span class="links_name">Exam Results</span>
+          </a>
+          <span class="tooltip">Exam Results</span>
+        </li>
+        <li>
+          <a href="payments.html">
+            <i class="bx bxs-wallet"></i>
+            <span class="links_name">Payments</span>
+          </a>
+          <span class="tooltip">Payments</span>
+        </li>
+        <li>
+          <a href="meals.html">
+            <i class="bx bx-dish"></i>
+            <span class="links_name">Order Meal</span>
+          </a>
+          <span class="tooltip">Order Meal</span>
+        </li>
+        <li>
+          <a href="contact.html">
+            <i class="bx bx-mail-send"></i>
+            <span class="links_name">Send Inquiry</span>
+          </a>
+          <span class="tooltip">Send Inquiry</span>
+        </li>
+
+        <li class="profile">
+          <div class="profile-details">
+            <img src="assets/img/profile.jpg" alt="profileImg" />
+            <div class="name_job">
+              <div class="name">M. Gunarathne</div>
+            </div>
+          </div>
+          <a href="index.html"><i class="bx bx-log-out" id="log_out"></i></a>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="top-bar">
+        <h1 class="title">
+          Faculty of Technology | Management Information System [ T E C M I S ]
+        </h1>
+      </div>
+      <h2 class="page-title">Notices</h2>
+      <div class="dashboard-body">
+        <div class="search-bar">
+          <div
+            style="
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+            "
+          >
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Search Notices..." />
+          </div>
+
+          <select name="" id="" class="category-filter">
+            <option value="">All Notices</option>
+            <option value="">Important</option>
+            <option value="">Exams</option>
+            <option value="">General</option>
+            <option value="">Dep. of ICT</option>
+            <option value="">Dep. of BST</option>
+            <option value="">Dep. of ET</option>
+          </select>
+        </div>
+        <table class="notice-table all-table">
+          <tr class="heading">
+            <th>#</th>
+            <th>Date</th>
+            <th>Notice</th>
+            <th>view</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2022/12/22</td>
+            <td>EXAMINATION REGISTRATION-LEVEL 4 SEMESTER I</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>2022/12/22</td>
+            <td>BUSINESS ECONOMICS (TCS2112) - ASSIGNMENT 02</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>2022/12/22</td>
+            <td>EXAM MEDICAL CERTIFICATES APPROVAL STATUS</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>2022/12/22</td>
+            <td>ENGLISH V CONTINUOUS ASSESSMENT 04</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>2022/12/22</td>
+            <td>NOTICE FOR ICT LEVEL 4 STUDENTS</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>2022/12/22</td>
+            <td>ENGLISH III - CONTINUOUS ASSESSMENT FOR LEVEL 2 STUDENTS</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>2022/12/22</td>
+            <td>NOTICE FOR ALL THE STUDENTS</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>2022/12/22</td>
+            <td>NOTICE FOR BURSARY SCHOLARSHIP HOLDERS</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>2022/12/22</td>
+            <td>STUDENT IDENTITY CARDS-2020 BATCH</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>2022/12/22</td>
+            <td>OPERATION MANAGEMENT FOR TECHNOLOGISTS ( TCS4132 ) - QUIZ 1</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>2022/12/22</td>
+            <td>
+              CREATIVITY, INNOVATION AND ENTREPRENEURSHIP ( TCS4112) -
+              CONTINUOUS ASSESSMENT 1
+            </td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>2022/12/22</td>
+            <td>
+              COMMUNICATION FOR TECHNOLOGISTS ( TCS4141 ) - CONTINUOUS
+              ASSESSMENT 1
+            </td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>2022/12/22</td>
+            <td>TCS3111 - SAFETY AND RISK MANAGEMENT - ONLINE QUIZ</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>2022/12/22</td>
+            <td>PRACTICAL TIMETABLE FOR ET LEVEL I SEMESTER I (BATCH 2020</td>
+            <td><button class="view">View</button></td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>2022/12/22</td>
+            <td>
+              NOTICE TO LEVEL 3 STUDENTS - ENGLISH V CONTINUOUS ASSESSMENT 1
+            </td>
+            <td><button class="view">View</button></td>
+          </tr>
+        </table>
+        <div class="b-pagination-outer">
+          <ul id="border-pagination">
+            <li><a class="" href="#">«</a></li>
+            <li><a href="#" class="active">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">»</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
